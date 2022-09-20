@@ -153,11 +153,11 @@ public class TV {
 	     */
 	    public void off_onTV(Status comand) {
 	        if (comand == Status.ON) {
-	            myWrite.println("Монітор включено.");
+	            myWrite.println("Телевізор включено.");
 	            status = Status.ON;
 	        } else {
 	            status = Status.OFF;
-	            myWrite.println("Монітор виключено.");
+	            myWrite.println("Телевізор виключено.");
 	        }
 	    }
 
@@ -172,10 +172,10 @@ public class TV {
 	            System.out.println("Hz - " + hz);
 	            System.out.println("Matrix - " + matrix);
 	            System.out.println("Bright - " + BrightDisplay);
-	            myWrite.println("Налаштування монітора виведенно.");
+	            myWrite.println("Налаштування телевізора виведенно.");
 	        } else {
 	            System.out.println("Your TV is off!!! ");
-	            myWrite.println("Налаштування телевізора не виведено, та як монітор виключенно.");
+	            myWrite.println("Налаштування телевізора не виведено, та як телевізор виключенно.");
 	        }
 
 	    }

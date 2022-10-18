@@ -18,9 +18,6 @@ public class TVApp {
         object.changeMonitorFormat("4:3");
         object.getSettings();
 
-        object.getSignal();
-        object.SignalTuner(300);
-        object.getSignal();
 
         object.off_onTV(Status.OFF);
         object.dispose();
